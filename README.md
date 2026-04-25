@@ -41,7 +41,7 @@ backend/
 3. Install dependencies:
    - `uv sync`
 4. Start API server:
-   - `uv run uvicorn app.main:app --reload --host 0.0.0.0 --port 8000`
+   - `uv run uvicorn app.main:app --reload --host localhost --port 8000`
 
 ## Running the Backend
 
